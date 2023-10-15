@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+
+    <!-- link google icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- css for navbar only -->
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+
+    <div class="header">
+        <div class="navbar">
+            <!-- logo and toggle button box -->
+            <div class="logo-toggle-box">
+                <!-- logo-box -->
+                <a href="" class="brand-logo">Navbar</a>
+
+                <!-- toggle open btn -->
+                <div class="toggle-open-btn">
+                    <span class="material-symbols-outlined">menu</span>
+                </div>
+
+                <!-- toggle close btn -->
+                <div class="toggle-close-btn d-none">
+                    <span class="material-symbols-outlined">close</span>
+                </div>
+            </div>
+
+            <!-- navbar main content -->
+            <div class="nav-container d-none">
+                <!-- menu box -->
+                <div class="menu-box">
+                    <a href="" class="nav-menu">Home</a>
+                    <a href="" class="nav-menu">About</a>
+                    <a href="" class="nav-menu">Services</a>
+                    <a href="" class="nav-menu">Products</a>
+                    <a href="" class="nav-menu">Contact</a>
+                </div>
+
+                <!-- search box -->
+                <div class="search-box">
+                    <input type="search" name="search" id="nav-search-ip" class="nav-search-ip" placeholder="Type to Search">
+                    <div class="nav-search-btn">
+                        <span class="material-symbols-outlined">search</span>
+                    </div>
+                </div>
+
+                <!-- login register profile btn -->
+                <div class="profile">
+                    <span class="material-symbols-outlined">account_circle</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- js for navbar only -->
+    <script src="navbar.js"></script>
+</body>
+</html>
